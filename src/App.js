@@ -6,7 +6,6 @@ import { Auth, Home } from "./pages";
 function App() {
   return (
     <div className="wrapper">
-        sdfds
         <Route exact path={['/', '/login']} component={Auth}/>
         <Route exact path="/im" component={Home}/>
     </div>
